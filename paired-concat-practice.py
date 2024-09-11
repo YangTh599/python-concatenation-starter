@@ -1,5 +1,6 @@
 # Concatenation Practice
 
+from time import sleep
 
 # Work with your assigned partner
 # Each person in your team should take turns writing the code to create and display longer strings
@@ -13,6 +14,7 @@ first_name = input("Enter your first name:\n")
 middle_name = input("Enter your middle name:\n")
 last_name = input("Enter your last name:\n")
 
+sleep(2)
 print(first_name.capitalize()+" "+middle_name.capitalize()+" "+last_name.capitalize())
 
 
@@ -20,14 +22,15 @@ print(first_name.capitalize()+" "+middle_name.capitalize()+" "+last_name.capital
 # Assume you're building a Space Invaders game
 # Use concatenation to create and display a custom welcome message that includes the player's first name
 
+sleep(2)
 print("Welcome "+first_name.capitalize()+" to Space Invaders!")
-
+sleep(1)
 # Part 3
 # Use concatenation to build and display a string that includes your first name, last name, and the year you were born
 year = input("What year were you born in?\n")
 
 print(first_name.capitalize()+" "+last_name.capitalize()+" was born in "+str(year)+".")
-
+sleep(3)
 
 # Part 4
 # Use concatenation to create and display a sentence that says which country in the world
